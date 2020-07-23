@@ -29,6 +29,7 @@ def bestTimeToBuyAndSellStock(arr):
         maxVal = max(maxVal,arr[i]-minVal)
     return maxVal
 
+
 if __name__ == '__main__':
     arr = [7, 1, 5, 3, 6, 4]
     print(bestTimeToBuyAndSellStock(arr))
