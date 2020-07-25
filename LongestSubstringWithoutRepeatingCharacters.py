@@ -24,8 +24,6 @@ Explanation: The answer is "wke", with the length of 3.
 '''
 
 
-
-
 def longestSubstringWithoutRepeatingCharacters(s):
     mySet = set()
     ans = i = j = 0
