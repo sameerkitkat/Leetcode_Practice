@@ -31,7 +31,7 @@ Output: "abccdcdcdxyz"
 '''
 
 
-def decode_string(s):
+def decodeString(s):
     result = ''
     index = 0
     char_stack = []
@@ -68,4 +68,4 @@ def decode_string(s):
 
 if __name__ == '__main__':
     s = '3[a2[bc]]'
-    print(decode_string(s))
+    print(decodeString(s))
